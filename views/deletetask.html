@@ -1,14 +1,21 @@
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="a.css">
 </head>
-<body>
-    <h1>
-        <a href="/">Home</a>
-        <a href="/addtask">Add New Task</a>
-        <a href="/listtasks">List Tasks</a>
-        <a href="/updatetask">Update Tasks</a>
-    </h1>
+
+<div class="header">
+    <div class="header-right">
+            <img src="TBJ.png">
+
+      <a class="active" href="#deletetask">Delete Task</a>
+       <a href="/addtask">Add New Task</a>
+        <a href="/listtasks">List All Tasks</a>
+        <a href="/home">Home</a>
+        <a href="/updatetasks">Update Tasks</a>
+    </div>
+ 
+</div>
+    <body>
     <form action="/deletetaskdata" method="POST">
         <label><font size="+2"><b>Task ID: </b></font></label>
         <input type="text" placeholder="Task ID" name="taskId"> </br>
