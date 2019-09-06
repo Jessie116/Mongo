@@ -16,6 +16,12 @@ body {
   padding: 20px 10px;
 }
 
+
+img{
+  max-width: 20%;
+  
+  }
+
 .header a {
   float: right;
   color: black;
